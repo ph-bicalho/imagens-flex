@@ -1,0 +1,32 @@
+#images-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.quadro{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  
+    height: 432px;
+    width: 335px;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 42px 26px;
+    margin: 1px 9px;
+}
+.quadro:nth-child(1){
+    background: url(../images/quadro1.png);
+}
+.quadro:nth-child(2){
+    background: url(../images/quadro2.png);
+}
+.quadro:nth-child(3){
+    background: url(../images/quadro3.png);
+}
+.quadro:nth-child(4){
+    background: url(../images/quadro4.png);
+}
